@@ -1,0 +1,9 @@
+- Git int untuk melacak segala perubahan pada folder dan menjadi git repository
+- Git status kondisi saat ini pada repository
+- Workspace : Working Directory --Gitadd--> Stagging Area --GitCommit--> Commit
+Working Directory 
+a. Tracked Files : modified, staged, commited
+b. Untracked Files : file baru dan belum masuk riwayat git
+- membuat Commit git commit -m "Pesan"
+- untuk melihat commit yaitu git --log
+- checkout untuk pindah commit
