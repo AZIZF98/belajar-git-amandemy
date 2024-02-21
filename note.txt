@@ -7,3 +7,66 @@ b. Untracked Files : file baru dan belum masuk riwayat git
 - membuat Commit git commit -m "Pesan"
 - untuk melihat commit yaitu git --log
 - checkout untuk pindah commit
+===============================================================================
+- git show untuk melihat detail commit
+- Branching untuk memisahkan workspace dengan workspace aslinya/master
+git branch untuk membuat branch baru
+git checkout namabranch untuk pindah branch 
+git status
+Ekstensi Gitlense
+======
+- Merge menggabungkan branch ke branch utama
+- cara mengatasi Merge conflict
+*git merge yang tidak konflik akan berada di stagging index
+*git merge yang konflik akan berada di working directory 
+git add . --> git merge --continue
+git merge --abort
+======
+-reset commit
+soft  : commit akan hilang dan perubahan berada di stagging index
+mixed : commit akan hilang dan perubahan akan masuk working directory
+Hard  : commit hilang dan hapus total
+git reset --flag <commit_id>`4
+
+- revert commit <commit_id>
+======
+default namaremote : origin
+*Tambah remote 
+git remote add namaremote linkremote
+*liat remote 
+git remote -v
+*Menghapus remote 
+git remote remove namaremote
+======
+push
+1. ketika melakukan perintah push harus menentukan nama branchnya apa
+git push namaremote localbranch
+git push namaremote localbranch:remotebranch
+2. mengirrim semua branch yang ada direpository kita
+git push origin-all
+3. menghapus branch remote repository
+git push --delete namaremote namabranc
+======
+*pull
+git pull origin master
+
+
+*fork dan pull request
+fork menyalin repository orang lain ke profile kita
+pull request p
+1.fork
+2.clone ke lokal repo
+3.push
+4.pull request
+======
+clone 
+menyalin repository orang lain ke local repository kita
+git clone linkrepo
+======
+git fetch 
+untuk melihat perubahan yang baru atau tidak
+======
+Coolaborator
+memberikan akses repository kita dengan 
+================================================================================
+
