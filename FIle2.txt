@@ -1,1 +1,2 @@
 Perubahan2
+git merge fitur 1
